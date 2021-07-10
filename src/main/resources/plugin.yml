@@ -1,0 +1,11 @@
+name: RandMotd
+version: 1.0.0
+author: CrimsonDawn45
+main: me.crimsondawn45.randmotdplugin.RandMotdPlugin
+api-version: 1.17
+description: Simple motd plugin that selects a random motd from a list
+depend: [DataFile]
+commands:
+  motd:
+    usage: /motd [add | remove | main] <motd>
+    permissions: motd.edit
